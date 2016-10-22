@@ -10,5 +10,5 @@ env:
   - LANG=en_GB
 
 script:
-  - pdflatex -interaction=nonstopmode -halt-on-error -jobname=tdl-$LANG
-  - pdflatex -interaction=nonstopmode -halt-on-error -jobname=tdl-$LANG 
+  - pdflatex -interaction=nonstopmode -halt-on-error -jobname=tdl-$LANG tdl.tex
+  - pdflatex -interaction=nonstopmode -halt-on-error -jobname=tdl-$LANG tdl.tex
