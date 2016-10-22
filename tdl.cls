@@ -26,6 +26,8 @@
 
 \newcommand{\tdl@start}{\setdatetoday}
 \input{config}
+\ifx \tdl@lang\empty \def\tdl@lang{en_GB} \else \relax\fi
+
 
 %% Declare Options
 %% ===============
