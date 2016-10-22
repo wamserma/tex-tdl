@@ -1,0 +1,14 @@
+sudo: false
+dist: trusty
+
+before_install:
+  - sudo apt-get -qq update && sudo apt-get install -y --no-install-recommends texlive-fonts-recommended texlive-latex-extra texlive-fonts-extra texlive-latex-recommended
+
+env:
+  - LANG=
+  - LANG=de_DE
+  - LANG=en_GB
+
+script:
+  - pdflatex -interaction=nonstopmode -halt-on-error -jobname=tdl-$LANG
+  - pdflatex -interaction=nonstopmode -halt-on-error -jobname=tdl-$LANG 
