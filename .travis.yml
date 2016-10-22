@@ -5,10 +5,13 @@ before_install:
   - sudo apt-get -qq update && sudo apt-get install -y --no-install-recommends texlive-fonts-recommended texlive-latex-extra texlive-fonts-extra texlive-latex-recommended tex-gyre
 
 env:
-  - LANG=
-  - LANG=de_DE
-  - LANG=en_GB
+  - TDLLANG=
+  - TDLLANG=de_DE
+  - TDLLANG=en_GB
+
+before_script:
+  - sed -i "s/de_DE/$TDLLANG/" config.tex
 
 script:
-  - pdflatex -interaction=nonstopmode -halt-on-error -jobname=tdl-$LANG tdl.tex
-  - pdflatex -interaction=nonstopmode -halt-on-error -jobname=tdl-$LANG tdl.tex
+  - pdflatex -interaction=nonstopmode -halt-on-error -jobname=tdl-$TDLLANG tdl.tex
+  - pdflatex -interaction=nonstopmode -halt-on-error -jobname=tdl-$TDLLANG tdl.tex
