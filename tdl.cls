@@ -19,10 +19,6 @@
 
 %% Load other Packages
 %% ===================
-%Fonts
-\RequirePackage[T1]{fontenc}[2005/09/27] % echte Umlaute ausgeben
-\RequirePackage{tgheros}[2009/09/27]
-\renewcommand{\familydefault}{\sfdefault}
 
 \newcommand{\tdl@start}{\setdatetoday}
 \input{config}
@@ -77,11 +73,23 @@
 
 %% Load more packages based on options
 %% ===================================
-\ifx \@docencoding\empty \else
-\RequirePackage[\@docencoding]{inputenc}[2008/03/30]
+\RequirePackage{ifxetex}
+\ifxetex 
+  %XeLateX
+  \RequirePackage{fontspec}
+  \RequirePackage{polyglossia}
+  \setmainlanguage[spelling=new,babelshorthands=true]{\tdl@texlang}
+\else
+  %pdfLateX
+  \ifx \@docencoding\empty \else
+  \RequirePackage[\@docencoding]{inputenc}[2008/03/30]
+  \fi
+  \RequirePackage[\tdl@texlang]{babel}[2008/07/08]
+  \RequirePackage[final,babel]{microtype}[2010/01/10]
+  %Fonts
+  \RequirePackage[LY1,T1]{fontenc}[2005/09/27] % might be implicitly called by sourcesanspro
 \fi
-\RequirePackage[\tdl@texlang]{babel}[2008/07/08]
-\RequirePackage[final,babel]{microtype}[2010/01/10]
+  \RequirePackage[default]{sourcesanspro}
 \RequirePackage{wasysym}[2003/10/30]
 \RequirePackage[usenames]{color}[2005/11/14]
 \RequirePackage{ifthen}[2001/05/26]
@@ -123,7 +131,7 @@
 \setdatebynumber{\numexpr\value{datenumber}-\value{datedayname}+1} % adjust for beginning of week
 
 \usetikzlibrary{arrows, decorations.markings,shapes,arrows,fit}
-\tikzset{bigbox/.style={fill=blaulight!50,draw, inner sep=10pt,label={[tikz@label@post/.append style={anchor=north west}]north west:\fontsize{14}{18}\selectfont\color{black!50}\textbf{#1}}},%
+\tikzset{bigbox/.style={fill=blaulight!50,draw, inner sep=10pt,label={[tikz@label@post/.append style={anchor=north west,xshift=0em,yshift=-0.1em}]north west:\fontsize{12}{16}\selectfont\color{black!50}\textbf{#1}}},%
          smallbox/.style={fill=white,anchor=north west,draw,inner sep=3mm,label={[tikz@label@post/.append style={anchor=north west}]north west:\fontsize{10}{14}\selectfont\color{black!50}\textbf{#1}}}}
 
 \newcommand{\daybox}{
