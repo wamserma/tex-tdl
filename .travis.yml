@@ -8,6 +8,17 @@ env:
   - TDLLANG=
   - TDLLANG=de_DE
   - TDLLANG=en_GB
+  - TDLLANG=el_EL
+  - TDLLANG=es_ES
+  - TDLLANG=fr_FR
+  - TDLLANG=hi_IN
+  - TDLLANG=it_IT
+  - TDLLANG=ja_JP
+  - TDLLANG=nl_NL
+  - TDLLANG=pl_PL
+  - TDLLANG=pt_BR
+  - TDLLANG=ru_RU
+  - TDLLANG=uk_UA
 
 before_script:
   - sed -i "s/de_DE/$TDLLANG/" config.tex
