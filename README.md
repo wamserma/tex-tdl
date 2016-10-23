@@ -5,7 +5,9 @@ a simple template for paper-based ToDo-Lists
 
 0. clone repository `https://github.com/wamserma/tex-tdl.git`
 0. edit `config.tex`
-0. run `pdflatex tdl` (twice)
+0. run `pdflatex tdl` (twice) or `xelatex tdl` (if not using a Latin-based locale, run also twice).
+
+Depending on your language (e.g. Japanese) you might also want to bring your own font. Just replace `sourcesanspro` in `tdl.cls`.
 
 ## Usage (ToDo-System)
 
