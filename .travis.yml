@@ -18,6 +18,7 @@ env:
   - TDLLANG=pl_PL
   - TDLLANG=pt_BR
   - TDLLANG=ru_RU
+  - TDLLANG=sv_SE
   - TDLLANG=uk_UA
 
 before_script:

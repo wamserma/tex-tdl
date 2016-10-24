@@ -2,6 +2,7 @@
 
 ## 2016-10-23
 + made names of weekdays translatable
++ translation sv_SE: thanks to https://github.com/hallaathrad
 
 ## 2016-10-23
 + translation pt_BR: thanks to https://github.com/emanoelopes
