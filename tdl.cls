@@ -138,12 +138,12 @@
 	\begin{tikzpicture}[remember picture,overlay]
 	\coordinate (dbnw) at ([xshift=10mm, yshift=-10mm] current page.north west);			
     \node[bigbox=\tdl@immediate,anchor=north west,minimum width=95mm,minimum height=157mm] (daybox) at (dbnw) {};
-	\node[smallbox=Mo,minimum width=95mm,text width=89mm,minimum height=25mm] (Mo) at ([xshift=0mm, yshift=-7mm] dbnw) {~\\[1mm]$\Box$\\[1mm]$\Box$\\[1mm]$\Box$};
-	\node[smallbox=Di,minimum width=95mm,text width=89mm,minimum height=25mm] (Di) at (Mo.south west) {~\\[1mm]$\Box$\\[1mm]$\Box$\\[1mm]$\Box$};
-	\node[smallbox=Mi,minimum width=95mm,text width=89mm,minimum height=25mm] (Mi) at (Di.south west) {~\\[1mm]$\Box$\\[1mm]$\Box$\\[1mm]$\Box$};
-	\node[smallbox=Do,minimum width=95mm,text width=89mm,minimum height=25mm] (Do) at (Mi.south west) {~\\[1mm]$\Box$\\[1mm]$\Box$\\[1mm]$\Box$};
-	\node[smallbox=Fr,minimum width=95mm,text width=89mm,minimum height=25mm] (Fr) at (Do.south west) {~\\[1mm]$\Box$\\[1mm]$\Box$\\[1mm]$\Box$};
-	\node[smallbox={Sa/So},minimum width=95mm,text width=89mm,minimum height=25mm] (Sa) at (Fr.south west) {~\\[1mm]$\Box$\\[1mm]$\Box$\\[1mm]$\Box$};
+	\node[smallbox=\tdl@Mo,minimum width=95mm,text width=89mm,minimum height=25mm] (Mo) at ([xshift=0mm, yshift=-7mm] dbnw) {~\\[1mm]$\Box$\\[1mm]$\Box$\\[1mm]$\Box$};
+	\node[smallbox=\tdl@Tu,minimum width=95mm,text width=89mm,minimum height=25mm] (Di) at (Mo.south west) {~\\[1mm]$\Box$\\[1mm]$\Box$\\[1mm]$\Box$};
+	\node[smallbox=\tdl@We,minimum width=95mm,text width=89mm,minimum height=25mm] (Mi) at (Di.south west) {~\\[1mm]$\Box$\\[1mm]$\Box$\\[1mm]$\Box$};
+	\node[smallbox=\tdl@Th,minimum width=95mm,text width=89mm,minimum height=25mm] (Do) at (Mi.south west) {~\\[1mm]$\Box$\\[1mm]$\Box$\\[1mm]$\Box$};
+	\node[smallbox=\tdl@Fr,minimum width=95mm,text width=89mm,minimum height=25mm] (Fr) at (Do.south west) {~\\[1mm]$\Box$\\[1mm]$\Box$\\[1mm]$\Box$};
+	\node[smallbox=\tdl@SaSu,minimum width=95mm,text width=89mm,minimum height=25mm] (Sa) at (Fr.south west) {~\\[1mm]$\Box$\\[1mm]$\Box$\\[1mm]$\Box$};
 	\end{tikzpicture}
 } 
 
