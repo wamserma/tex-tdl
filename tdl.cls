@@ -78,7 +78,7 @@
   %XeLateX
   \RequirePackage{fontspec}
   \RequirePackage{polyglossia}
-  \setmainlanguage[spelling=new,babelshorthands=true]{\tdl@texlang}
+  \setmainlanguage{\tdl@texlang}
 \else
   %pdfLateX
   \ifx \@docencoding\empty \else
