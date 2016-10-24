@@ -1,5 +1,12 @@
 # History for `tex-tdl`
 
+## 2016-10-24
++ updated translation hi_IN: thanks to https://github.com/mohit4
++ updated translation pt_BR: thanks to https://github.com/rectius
++ updated translations fr_FR and it_IT: thanks to https://github.com/supercr7
++ updated translation ru_RU: thanks to https://github.com/iamale
++ updated translation nl_NL: thanks to https://github.com/flokli
+
 ## 2016-10-23
 + made names of weekdays translatable
 + translation sv_SE: thanks to https://github.com/hallaathrad
