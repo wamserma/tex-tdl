@@ -12,6 +12,7 @@ env:
   - TDLLANG=es_ES
   - TDLLANG=fr_FR
   - TDLLANG=hi_IN
+  - TDLLANG=id_ID
   - TDLLANG=it_IT
   - TDLLANG=ja_JP
   - TDLLANG=nl_NL
