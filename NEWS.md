@@ -1,6 +1,9 @@
 # History for `tex-tdl`
 
 ## 2016-10-23
++ made names of weekdays translatable
+
+## 2016-10-23
 + translation pt_BR: thanks to https://github.com/emanoelopes
 + translations es_ES and fr_FR: thanks to https://github.com/SuperHakes
 + translations ru_RU and uk_UA: thanks to https://github.com/andyps
