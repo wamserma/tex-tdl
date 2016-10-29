@@ -6,6 +6,7 @@ before_install:
 
 env:
   - TDLLANG=
+  - TDLLANG=ar_AR
   - TDLLANG=be_BY
   - TDLLANG=de_DE
   - TDLLANG=en_GB

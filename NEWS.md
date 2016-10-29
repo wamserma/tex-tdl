@@ -3,6 +3,7 @@
 ## 2016-11-08
 + new translation tr_TR: thanks to https://github.com/halilkaya
 + new translation hu_HU: thanks to https://github.com/ocReaper
++ new translation ar_AR: thanks to https://github.com/stodar
 
 ## 2016-10-27
 + new translation lt_LT: thanks to https://github.com/estim
