@@ -4,6 +4,7 @@
 + new translation tr_TR: thanks to https://github.com/halilkaya
 + new translation hu_HU: thanks to https://github.com/ocReaper
 + new translation ar_AR: thanks to https://github.com/stodar
++ new translation ms_MY: thanks to https://github.com/codegateau
 
 ## 2016-10-27
 + new translation lt_LT: thanks to https://github.com/estim
