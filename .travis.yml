@@ -22,6 +22,7 @@ env:
   - TDLLANG=pt_BR
   - TDLLANG=ru_RU
   - TDLLANG=sv_SE
+  - TDLLANG=tr_TR
   - TDLLANG=uk_UA
   - TDLLANG=hr_HR
 
