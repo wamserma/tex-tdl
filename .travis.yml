@@ -25,6 +25,7 @@ env:
   - TDLLANG=tr_TR
   - TDLLANG=uk_UA
   - TDLLANG=hr_HR
+  - TDLLANG=ms_MY
 
 before_script:
   - sed -i "s/de_DE/$TDLLANG/" config.tex
