@@ -1,5 +1,8 @@
 # History for `tex-tdl`
 
+## 2016-11-08
++ new translation hu_HU: thanks to https://github.com/ocReaper
+
 ## 2016-10-27
 + new translation lt_LT: thanks to https://github.com/estim
 
