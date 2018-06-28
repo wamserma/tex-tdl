@@ -1,7 +1,8 @@
 [![Build Status](https://img.shields.io/travis/wamserma/tex-tdl/master.png)](https://travis-ci.org/wamserma/tex-tdl/) ![translation to 22 languages available](https://img.shields.io/badge/languages-22-blue.svg)
 
 # tex-tdl
-a simple template for paper-based ToDo-Lists
+a simple template for paper-based ToDo-Lists  
+[here is an example PDF](tdl_example_de_DE.pdf)
 
 ## Usage (Code)
 
